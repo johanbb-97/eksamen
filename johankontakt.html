@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <title>kontakt</title>
+    <link rel="stylesheet" href="style/styleguide.css">
+</head>
+<body>
+    <nav class="hovedmenu">
+            <a href="johangalleri.html"><p>galleri</p></a>
+            <div class="dropdown">
+                <a class="dropbtn" href="flow1-2.html">studie</a>
+                    <div class="dropdown-content">
+                        <a href="flow1-2.html">flow 1+2</a>
+                        <a href="flow3.html">flow 3</a>
+                        <a href="flow4.html">flow 4</a>
+                        <a href="#">flow 5</a>
+                    </div>
+            </div>   
+            <a href="johanprojekter.html"><p>projekter</p></a>
+            <a class="current" href=""><p>kontakt</p></a>
+    </nav>
+    <div class="tilbage">
+        <a href="index.html">
+        <img src="images/arrow-1.png"> 
+        </a>
+        <a href="index.html">
+        <h2>forside</h2>
+        </a>
+    </div>
+    <div class="container2">
+        <div class="overskrift">
+            <h1>Kontakt</h1>
+        </div>
+    </div>
+    <div class="container400">
+       <div class="profil">
+           <img src="images/profilbillede.png">
+           <h3>Johan Bregnballe,<br> MultimedieDesigner<br> Amagerbro, 2300</h3>
+       </div>
+          <div class="kontaktinfo">
+           <h3>Du kan kontakte mig<br> via mobil og mail</h3>
+              <h4> <i>tlf: +45 88 88 88 88 <br>mail: design@johanb.dk</i></h4>
+           <h3>Eller send mig en besked her:</h3>
+           <div class="trylleformular">
+        <form action="send-afsted.php">
+           <!-- formular med 1 linje. -->
+           <p>Dit navn:</p>
+            <input type="text" name="skriv her..." placeholder="skriv her..." autocomplete="off" autofocus>
+            <p>Dit firma/projekt:</p>
+            <input type="text" name="firma" placeholder="skriv her..." required>
+            <p>Din e-mail</p>
+            <input type="email" name="email"
+            placeholder="skriv her...">
+            <!-- formular med flere linjer -->
+            <p>Besked:</p>
+            <textarea name="comments" cols="40" rows="8"></textarea>
+            <br><br>
+            <input type="submit" value="Send">
+        </form>
+       </div>
+       </div>
+    </div>
+</body>
+</html>
